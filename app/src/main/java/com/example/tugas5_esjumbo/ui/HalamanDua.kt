@@ -70,7 +70,7 @@ fun HalamanDua (
                     modifier = Modifier.fillMaxWidth(),
                 onClick = onCancelButtonClicked
                 ){
-                    Text(stringResource(androidx.compose.ui.R.string.close_drawer))
+                    Text(stringResource(R.string.cancel))
                 }
             }
         }
